@@ -1,0 +1,79 @@
+.h2-0::before {
+  content: "\25bc";
+  position: absolute;
+  top: 50%;
+  left: 175px;
+  transform: translateY(-50%);
+}
+.h2-0 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  color:#1B1A18;
+}
+.h2-1::before {
+  content: "\25bc";
+  position: absolute;
+  top: 50%;
+  left: 185px;
+  transform: translateY(-50%);
+}
+.h2-1 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  color:#1B1A18;
+}
+.h2-3::before {
+  content: "\25bc";
+  position: absolute;
+  top: 50%;
+  left: 170px;
+  transform: translateY(-50%);
+}
+.h2-3 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  color:#1B1A18;
+}
+.main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 210px;
+  row-gap: 5px;
+  max-width: 450px;
+  margin: auto;
+  /* background-color: #8AD058; */
+  background-color: #ccffcc;
+  margin-top: 100px;
+  border-radius: 18px;
+  box-shadow: 5px 5px 10px #66ff99 ;
+}
+.actor-box {
+  display: grid;
+  place-items: center;
+  max-width: 300px;
+  width: 100%;
+  background: linear-gradient(to bottom, #99ff99 0%, #66ff99 100%);
+  border: 2px solid #66ff99;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px #24450C;
+}
+.image {
+  max-width: 181px;
+  height: 0;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: all 3s;
+  border-radius: 8px;
+}
+.actor-box.actor h2::before {
+  content: "\25b2";
+}
+.actor-box.actor .image {
+  height: 278px;
+}
